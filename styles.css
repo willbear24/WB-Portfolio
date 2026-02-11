@@ -1,0 +1,209 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Inter";
+    margin: 0;
+    text-align: center;
+    background-color: #222;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar {
+    background-color: #ffffff;
+    padding: 5px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navbar img {
+    justify-self: left;
+    height: 50px;
+    padding: 10px;
+
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar ul {
+    padding-left: 5px;
+    
+}
+
+.navbar a {
+    color: #222;
+    margin: 0 15px;
+    text-decoration: none;
+    opacity: .75;
+    font-weight: 700;
+}
+
+.navbar a:hover {
+    zoom: 110%
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 75px;
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-kerning: normal;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-color: #0314388e;
+    padding: 30px 20px;
+    border-bottom: solid 10px #ffffff;
+    justify-content: center;
+    box-shadow: 10px 0 10px 0 black
+    
+}
+
+.hero img {
+    align-self: center;
+    height: 300px;
+    border-radius: 50px;
+    border-bottom: 10px solid white;
+}
+
+.hero p {
+    font-size: 25px;
+    flex-wrap: wrap;
+    color: rgb(198, 198, 198);
+    padding-bottom: 7px;
+    margin: 10px;
+}
+
+.portfolio {
+    padding: 0px 20px 40px 20px;
+    background-color: #222;
+    margin: 0px;
+}
+
+.portfolio h2 {
+    font-size: 50px;
+    color: white;
+}
+.project-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.project {
+    background-color: white;
+    border: 1px solid #222;
+    flex-wrap: wrap;
+    padding: 15px;
+    width: 300px;
+    border-radius: 15px;
+    opacity: .75;
+    overflow: hidden;
+}
+
+.project:hover {
+    opacity: 1;
+    box-shadow:
+    0 0 10px #586390,
+    0 0 20px #586390,
+    0 0 30px #586390;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+}
+footer {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 15px;
+    font-size: 14px;
+}
+
+/*hamburger icon styles*/
+.menu-toggle{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    cursor: pointer;
+    display: none; /*hidden unless mobile */
+}
+
+@media (max-width: 768px) {
+    .project-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    h1 {
+        font-size: 50px;
+    }
+
+    .navbar {
+        display: flex;
+        border-top: 10px solid #222;
+        font-size: 25px;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .navbar img {
+        width: 60%;
+        height: auto;
+    }
+
+    /* change projects opacity since no hover on mobile */
+    .project {
+        opacity: 1;
+    }
+
+    /*show hamburger icon*/
+    .menu-toggle {
+        display: block;
+    }
+
+    /*hide menu*/
+    .menu {
+        display: none;
+        position: absolute; /*position relative to navbar*/
+        top: 100%;
+        background-color: rgb(255, 255, 255);
+        left: 0;
+        right: 0;
+        padding: 20px 0px;
+        z-index: 1000;
+    }
+
+    /*show the menu when class active is there*/
+    .menu.active {
+        display: block;
+    }
+
+    /*adjust menu list for mobile*/
+    .menu ul {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}
+

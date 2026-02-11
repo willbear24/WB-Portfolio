@@ -1,27 +1,19 @@
-# HTML & CSS Final Project - Coding Temple
+# Practice Developer Portfolio for Will Berendsen
 
-## About
+## Intro
 
-Hello! This is the final project for the HTML and CSS module in coding project showcasing the skills and knowledge I have learned over the past few weeks. I learned a ton, going from never having written a single line of code to producing a nice, funcitonal and responsive webpage. Below are listed some of the things I learned about in key areas of the coding process. 
+This is my first submitted project for Coding Temple! I had a lot of fun putting the HTML and CSS skill I have learned thus far in this module in building this site. 
 
-### Changes to Prompt
+I tried to go slightly above and beyond, adding my own design choices to the prompt. 
 
-I changed a few of the items from the base figma design that was given to us in order to make the design more personal to me. I changed the "case studies" section to showcase my strengths as a designer as I didn't have any case studies to showcase yet.  I wanted this site to be slightly more functional currently than just entirely made up content.  I also changed the icons on the navbar to be platforms that I am currently active on, making those links fully functional. 
+## Basic Code
 
-### Responsiveness
+Overall, I found this process relatively simple with the basic layout of the page in HTML. I am a visual person, so visualizing how the stacking of the divisions in the code came pretty natural to me. Where I ran into some trouble was with the CSS code, in particular, understanding the flex relationships. I was not able to get some things to do what I wanted them to do with flex, and feel like that is still an area where I would like to improve. 
 
-I learned a lot about responsiveness throughout this process. Initially, I was not thinking about responsiveness at all, and created lots of headaches for myself later down the line. I really started to learn the value of properties such as vh and vh in creating responsive designs. I initially didn't utilize those properties, and was really annoyed to be changing pixel sizes for things constantly. I was also giving width and height values to a lot of things that didn't need them, and should have relied on the margin and padding to take care of that for me. I also found use in using the zoom and scale tools when shrinking things for mobile, as they were much faster than changing every font size for every single item in a div. 
+## Design Choices
 
-### Special Features
+I tried to go with a slightly modern design, fully being aware that my skills at the moment are holding me back from really getting too fancy. I like the darker look, and think the bits of extra flair I added were pretty cool. I was able to figure out how to get the page to scroll to the section that I wanted it to when clicking the navbar links, even though only one of those sections actually exists in this example. I also had some fun with the hover effects over the projects themselves, playing with opacity and a glow effect to really help the projects stand out individually. 
 
-I learned a few extra special features throughout this process, including utilizing JavaScript for creating responsive hamburger menus and a functioning "back to top" button. I also included a smooth scrolling effect for when the links take you to sections on the page. Another fun feature I added was an ease transition to the opacity change that occurs when buttons are hovered over on the page. 
+## What did I learn?
 
-
-### Workflow
-
-I am still learning so much about workflow as I learn to code, really focusing on giving things classes that make sense, and utilizing id tags only when absolutely necessary. I have only recently started to understand what working "mobile first" looks like, and am interested in focusing on that on my next project, as it seems it would make things a lot easier down the line. I also think I see the importance of coding out an entire page in the HTML before styling at all, because it would help me keep my classes consistent and make the styling process slightly easier. 
-
-### Final Thoughts
-
-I think this project turned out pretty well. I am happy with the final result and find it to be very functional on desktop, tablet, and phone views. I am happy with the amount of progress I have made in just a couple of weeks of learning to code and am excited about the future! On to JavaScript!
-
+I learned a lot through this process. While it took me a long time to complete it, because it was my first time, I can really see how a developer could get very fast at building pages. I also learned that there is so much flexibility one has when building pages this way. I am excited to learn more about how to put things together to be able to make more complicated pages. I also learned that I really enjoy this and it scratched a nice creative itch that I had, so that's a good sign! I also learned lots of new tricks for fun effects, some just by happy accidents where I thought "I wonder if I could change the opacity" and bam, I figured it out just like that. 
